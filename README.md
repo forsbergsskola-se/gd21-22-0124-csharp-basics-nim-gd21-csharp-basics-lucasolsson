@@ -27,11 +27,11 @@ I recommend following this path:
 ## Goal
 Understand, how to set up a C# Project from scratch, understand the Code involved with a simple Hello World Application
 ## Process
-- [ ] Work your way through the slides [003.1 Hello World](slides/003.1-hello-world.md)
-- [ ] Pick an IDE of your choice ([Jetbrains Rider](https://www.jetbrains.com/rider/) is highly recommended, free student licenses available through your student email address)
-- [ ] Open the Hello World Project `HelloWorld.csproj` in your IDE
-- [ ] Run the Hello World Project through your IDE. In most IDE's, there's a Play Button in the Top Bar.
-- [ ] Start the Assignment on Google and GitHub Classroom. Check [Assignments with Google and GitHub Classroom](https://gist.github.com/marczaku/3b1853ee30575093b106ecc480d563b2)
+- [x] Work your way through the slides [003.1 Hello World](slides/003.1-hello-world.md)
+- [x] Pick an IDE of your choice ([Jetbrains Rider](https://www.jetbrains.com/rider/) is highly recommended, free student licenses available through your student email address)
+- [x] Open the Hello World Project `HelloWorld.csproj` in your IDE
+- [x] Run the Hello World Project through your IDE. In most IDE's, there's a Play Button in the Top Bar.
+- [x] Start the Assignment on Google and GitHub Classroom. Check [Assignments with Google and GitHub Classroom](https://gist.github.com/marczaku/3b1853ee30575093b106ecc480d563b2)
 
 # Day 2
 ## Goal
