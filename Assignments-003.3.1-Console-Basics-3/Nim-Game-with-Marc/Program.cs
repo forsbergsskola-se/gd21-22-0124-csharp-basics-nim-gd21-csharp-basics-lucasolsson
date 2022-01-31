@@ -1,4 +1,5 @@
-﻿int players = 2;
+﻿//ints for game
+int players = 2;
 int matches = 24;
 int minMatches = 1;
 int maxMatches = 3;
@@ -6,6 +7,7 @@ int maxMatches = 3;
 
 Console.WriteLine("Welcome to Nim!");
 
+//Core loop
 while (!IsGameOver())
 {
     PrintMatches();
@@ -27,7 +29,11 @@ while (!IsGameOver())
     }
 }
 
+//--------------------------------------------------
 //Functions for the game
+
+
+//print matches how many matches is left after player and ai has drawn
 void PrintMatches()
 {
     //Print matches  
@@ -35,10 +41,10 @@ void PrintMatches()
     {
         Console.Write("|");
     }
-    //New line for not getting everything on same line 
     Console.WriteLine($" {matches} ");
 }
 
+//Player function
 void PlayerDraw()                                                      
 {                                                                      
     int inputNumber = 0;                                               
@@ -51,6 +57,7 @@ void PlayerDraw()
     matches -= inputNumber;                                            
 }                                                                      
 
+//AI function
 void AIDraw()
 {
     int inputNumber = 3;
@@ -58,6 +65,7 @@ void AIDraw()
     matches -= inputNumber;
 }
 
+//Check if game is over or not
 bool IsGameOver()
 {
     return matches < 1;
